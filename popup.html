@@ -10,7 +10,45 @@
 </head>
 <body>
     <h1>select-gpt</h1>
+    <br/>
+    <h2>Tones:</h2>
+    <br/>
+    <select class="tonesCss" name="tones">
+        <option> Select Tones ...</option>
+        <option value="">proffesional</option>
+        <option>Enthusiastic</option>
+        <option>Persuasive</option>
+        <option>Empathetic</option>
+        <option>Confident</option>
+        <option>Sraightforward</option>
+        <option>Casual</option>
+        <option>Relatable</option>
+        <option>Educational</option>
+    </select>
+    <br/>
+    <h2>Character:</h2>
+    <br/>
+    <select class="intentionsCss" name="intentions">
+        <option>less than 160</option>
+        <option>less than 320</option>
+        <option>less than 480</option>
+    </select>  
+    <br/>
+    <h2>Intentions:</h2><br/>
+     <select class="intentionsCss" name="intentions">
+        <option>Select Intentions...</option>
+        <option>Set a time to followup</option>
+        <option>Set a appointment</option>
+        <option>Handle an objection</option>
+        <option>Answer a question</option>
+        <option>Gather information</option>
+        <option>Build rapport</option>
+    </select>  
+    <br/>
+    <br/>
+
     <div class="editable" contenteditable="false" id="input" placeholder="Loading..."></div><br/>
+
     <div class="editable" contenteditable="false" id="output"></div>
 
     <script src="./popup.js"></script>

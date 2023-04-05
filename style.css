@@ -10,7 +10,7 @@ body {
     height:400px;
 }
 
-h1 {
+h1 ,h2{
     color: #fff
 }
 
@@ -25,6 +25,38 @@ h1 {
     border-radius: 2px;
     padding: 1vw;
     overflow-y: scroll;
+}
+
+.characterCss{
+    font-family: proxima-nova;
+    resize: none;
+    background-color: #454754;
+    color: #D1D5CA;
+    font-size: 3.75vh;
+    width: 94vw;
+    border: 0px;
+    border-radius: 2px;
+    padding: 1vw;
+    overflow-y: scroll;  
+}
+
+.intentionsCss , .tonesCss{
+    background: #454754;
+    color: #D1D5CA;
+    width: 100%;
+    border: none;
+    font-family: proxima-nova;
+    font-size: 3.75vh;
+    padding: 1vw;  
+    overflow-y: scroll;
+}
+
+h2{
+    margin-bottom: 0px!important;
+}
+
+.intentionsCss{
+    margin-bottom: 15px;
 }
 
 .editable:empty:before {
